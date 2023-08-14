@@ -1,0 +1,980 @@
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+<header>
+        <div>
+            <div class="container">
+                <nav class="nav">
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a href="index.html" class="logo" style="font-size: 25px; color: white; margin-left: 1%; padding: 20px;"><u>THE BHOYAR RESTRO</u></a>
+                    <ul class="nav-list" style="padding: 30px;">
+                        <li class="nav-items">
+                            <a href="index.html" class="nav-link active"><b>Home</b></a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#roo" class="nav-link"><b>Menu</b></a>
+                        </li>
+                        
+                        <li class="nav-items">
+                            <a href="#reserve" class="nav-link"><b>Bookings</b></a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#catering" class="nav-link"><b>Catering</b></a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#ro" class="nav-link"><b>Contact Us</b></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <section class="hero" id="hero" style="width: 100%;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;">
+        <div class="container">
+            <h2 class="sub-headline">
+                <span class="first-letter"><b>W</span>elcome</b>
+            </h2>
+            <h1 class="headline">The BHOYAR RESTRO</h1>
+            <div class="headline-description">
+                <div class="seperator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5 style="text-align: center;">Ready to Serve</h5>
+                    <a href="#hehe" class="btn cta-btn">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="discover-our-story" id="hehe">
+         <div class="container">
+             <div class="restaurent-info">
+                 <div class="restaurent-description padding-right animate-left">
+                     <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="headline headline-dark">Our Story</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                     </div>
+                     <p>
+                        Meet Chef Rohith and Vamsi<br>
+
+                        CHEF ROHITH’S eyes sparkle when he talks about greens, specifically the organic kale, chard, mustard greens and spinach that make up his “super saag” menu special. Using four greens instead of the traditional spinach, and coconut milk instead of cream, he says, “It’s healthier, it’s vegan, and more importantly, the flavor is amazing. I sell it out every time.”<br><br>
+                        
+                        His co-owner Vamsi brags, “Rohith could make a gourmet meal out of thin air. I think Tandoori Grill stands out for our quality, and that’s all Rohith.” They both have owned and operated the <i style="color: black;"><b>RK    </b> </i>  Indian Restaurant and Bar for the last 7 years.<br><br>
+                        
+                        “ Vamsi says, adding that they now have the best branches all over India. “Now we know our customers. They’re our friends or the friends of our staff and they come by the restaurant to catch up.”
+                     </p>
+                     <a href="#ro" class="btn body-btn">About us</a>
+                 </div>
+                 <div class="restaurent-info-img animate-right">
+                     <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="ku">
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="tasteful-recipes between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">T</span>asteful
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">Recipes</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <scetion class="discover-our-menu">
+        <div class="container">
+            <div class="restaurent-info">
+                <div class="image-group padding-right animate-left">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="" id="roo">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+                </div>
+                <div class="restaurent-description animate-right">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="headline headline-dark">Menu</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                     </div>
+                     <p></p>
+                     <a href="inbuilt.html"  class="btn body-btn">View the full menu</a>
+                </div>
+            </div>
+        </div>
+    </scetion>
+    <br>
+    <br>
+    <section class="perfect-blend between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">T</span>he perfect
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">Blends</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="culinary-delight">
+        <div class="container">
+            <div class="restaurent-info">
+                <div class="restaurent-description padding-right animate-left">
+                    <div class="global-headline">
+                       <h2 class="sub-headline">
+                           <span class="first-letter">C</span>ulinary
+                       </h2>
+                       <h1 class="headline headline-dark">Delight</h1>
+                       <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        The service-quality offered in the hotel is of highest level and the guests are spoiled with superb culinary delights in the restaurants. Every morning a vast buffet breakfast is prepared for the guests and the 5-course-dinner as part of the half-board arrangement is the culinary highlight of day!<br><br>
+                        The attentive service of our team, numerous culinary delights prepared with the best products and the countless treasures of our wine cellar ensure you a very special culinary adventure. Our hotel is also the ideal starting point from which to explore the nice surroundings on foot or with the bicycle.
+                    </p>
+                    <a href="#reserve" class="btn body-btn">Make a reservation</a>
+                </div>
+                <div class="image-group">
+                    <img class="animate-top" src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+                    <img class="animate-bottom" src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hi between" id="catering">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter"><b style="color: black;">C</span>atering</b> 
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">Special Events</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discover-our-story" id="hehe">
+        <div class="container">
+            <div class="restaurent-info">
+                <div class="restaurent-description padding-right animate-left">
+                    <div class="global-headline">
+                       <h2 class="sub-headline">
+                           <span class="first-letter">P</span>erfect atmosphere
+                       </h2>
+                       <h1 class="headline headline-dark">FLORAL & LIGHTNING</h1>
+                       <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Our professional design team will take your vision and turn it into reality. Custom floral, lightning and interior design according to your dreams will make your special event enjoyable and memorable. We provide all necessities in terms of tables, chairs, lightning equipment and full floral services.
+                    </p>
+                    <a href="#" class="btn body-btn">Start Planning</a>
+                </div>
+                <div class="restaurent-info-img animate-right">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="ku">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discover-our-story" id="hehe">
+        <div class="container">
+            <div class="restaurent-info">
+                <div class="restaurent-info-img animate-top">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="ku">
+                </div>
+                <div class="restaurent-description padding-right animate-right">
+                    <div class="global-headline">
+                       <h2 class="sub-headline">
+                           <span class="first-letter">F</span>ood & Beverages
+                       </h2>
+                       <h1 class="headline headline-dark">EXQUISITE CUISINE</h1>
+                       <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Food is the heart of every event. We’ll make your day special by selecting only the best ingredients and turning them into magical dishes. Our service includes complete food preparation, beverages. and full china service. You can choose from already prepared sample menus or join us in creating your own that will please your taste for sure.
+                    </p>
+                    <a href="inbuilt.html" class="btn body-btn">Explore Menus</a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section class="discover-our-story" id="hehe">
+        <div class="container">
+            <div class="restaurent-info">
+                <div class="restaurent-description padding-right animate-left">
+                    <div class="global-headline">
+                       <h2 class="sub-headline">
+                           <span class="first-letter">F</span>ull Package
+                       </h2>
+                       <h1 class="headline headline-dark">STAFF & EQUIPMENT</h1>
+                       <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Our professional design team will take your vision and turn it into reality. Custom floral, lightning and interior design according to your dreams will make your special event enjoyable and memorable. We provide all necessities in terms of tables, chairs, lightning equipment and full floral services.
+                    </p>
+                    <a href="#" class="btn body-btn">Start Planning</a>
+                </div>
+                <div class="restaurent-info-img animate-bottom">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="ku">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="ro">
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-up">
+                    
+                    <h4>About RK</h4>
+                    
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <p>
+                        In 2023, Bhoyar's RESTO began with a simple philosophy that holds true today: serve honest, local ingrediants with informed service, in a comfortable setting. The staff is passionate and polite. The restaurant is simple and modern. The menu is creative and seasonal. The menu is the heart and the soul of the restaurant.<br>
+                        It will change often, fluctuating with the sesons and availability of product. We are relentless in our pursuit of the freshest products, which are constantly inspiring and defining our work.
+                    </p>
+                    
+                </div>
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Follow along</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Newsletter</h4>
+                        <form action="" class="newsletter-form">
+                            <input type="text" class="newsletter-input" placeholder="Your email address....">
+                            <button class="newsletter-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    </footer><br><br>
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+/*Global styles*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+}
+html{
+    font-family: var(--body-font);
+    font-size: 10px;
+    color: var(--body-font-color);
+    scroll-behavior: smooth;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+section{
+    padding:3.9rem 0;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.6rem;
+}
+.comtainer{
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.5),transparent);
+
+}
+.nav{
+    height: 7.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-toggle{
+    color: #fff;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2.5rem;
+    cursor: pointer;
+    z-index: 1500;
+
+}
+
+.fa-times{
+    display: none;
+}
+.nav-list{
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--main-font-color-dark);
+    padding: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1250;
+    transform: translateX(-100%);
+    transition: transform .5s;
+}
+
+.nav::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1000;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity .5s;
+}
+.open .fa-times{
+    display: block;
+}
+.open .fa-bars{
+    display: none;
+}
+.open .nav-list{
+    transform: translateX(0);
+}
+
+.open .nav::before{
+    opacity: 1;
+    transform: scale(1) ;
+}
+
+.nav-item{
+    border-bottom: 2px solid rgba(255,255,255,.3);
+
+}
+.nav-link{
+    display: black;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    
+    transition: color.5s;
+}
+.nav-link:hover{
+    color : var(--secondary-font-color);
+}
+.sub-headline{
+    font-size: 8.5rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 100;
+    line-height: .4;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
+}
+.first-letter{
+    text-transform: uppercase;
+    font-size: 10.3rem;
+}
+.headline{
+color: #fff;
+font-size: 3.7rem;
+font-family: var(--main-font);
+text-transform: uppercase;
+font-weight: 900;
+letter-spacing: .5rem;
+margin-right: -.5rem;
+animation: scale .5s forwards;
+
+}
+.seperator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line{
+    width: 100%;
+    max-width: 8.4rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+    opacity: 0;
+    animation: grow 2s forwards;
+    animation-delay: .9s;
+}
+
+.line-right::before,
+.line-left::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: .6rem solid transparent;
+    opacity: 0;
+    animation: grow .5s forwards;
+    animation-delay: .9s;
+}
+.line-right::before{
+    border-right-color: #fff;
+    right: 0;
+}
+.line-left::before{
+    border-left-color: #fff;
+    left: 0;
+}
+.asterisk{
+    font-size: 1.2rem;
+    color: var(--secondary-font-color);
+    margin: 0 1.6rem;
+    opacity: 0;
+    animation: spin 5s forwards;
+    animation-delay: .7s;
+}
+.single-animation{
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1.5s;
+}
+.headline-description h5{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform:uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+
+.btn{
+    display:inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+.single-animation a{
+    text-align: center;
+}
+.cta-btn{
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+   border-radius: .4rem;
+   transition: background-color .5s;
+}
+.hero{
+    text-align: center;
+}
+.cta-btn:hover,
+.cta-btn:focus{
+    color: #fff;
+    background-color: var(--secondary-font-color);
+}
+
+.global-headline{
+    text-align: center;
+    margin-top: 3.9rem;
+}
+
+.discover-our-story .global-headline{
+    margin-top: 6.9rem;
+}
+
+.global-headline .asterisk{
+    color: var(--body-font-color);
+    margin: 2.4rem 0;
+}
+
+.headline-dark{
+    color: var(--main-font-color-dark);
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+.global-headline .sub-headline{
+    letter-spacing: -1px;
+    line-height: .42;
+}
+.restaurent-info{
+    text-align: center;
+}
+.restaurent-description{
+    margin-bottom: 3rem;
+}
+.restaurent-description p{
+    line-height: 1.6;
+    margin-bottom: 2.4rem;
+}
+
+.body-btn{
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+    position: relative;
+    transition: color .5s;
+}
+.body-btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width:100%;
+    height: 2px;
+    background-color: var(--secondary-font-color);
+    transition: background-color .5s;
+
+}
+
+.body-btn:hover,
+.body-btn:focus{
+    color: var(--main-font-color-dark)
+}
+.body-btn:hover::before,
+.body-btn:focus::before{
+    background-color: var(--main-font-color-dark);
+}
+
+.tasteful-recipes{
+    background: url("https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80") center no-repeat;
+    background-size: cover;
+}
+.between{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+.discover-our-menu .restaurent-description{
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+
+.perfect-blend{
+    background: url(https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80) center no-repeat;
+    background-size: cover;
+}
+.hi{
+    background: url(https://images.unsplash.com/photo-1555244162-803834f70033?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80) center no-repeat;
+    background-size: cover;
+}
+footer{
+    padding: 7.9rem;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.back-to-top{
+    width: 7rem;
+    height:7rem;
+    background-color: #121212;
+    position:absolute;
+    top:-3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.back-to-top i{
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    animation: up 2s infinite
+}
+.footer-content{
+    overflow: hidden;
+}
+.footer-content h4{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+.footer-content .asterisk{
+    margin: 2.4rem 0;
+}
+.footer-content-about{
+    margin-bottom: 5.4rem;
+}
+.footer-content-about p{
+    line-height: 2;
+}
+.social-icons{
+    list-style: none;
+    margin-bottom: 5.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons i{
+    font-size: 2rem;
+    color: #fff;
+    padding: .8rem 2rem;
+
+    opacity: .5;
+    transition: color .5s;
+}
+.social-icons i:hover,
+.social-icons i:focus{
+    color: var(--secondary-font-color);
+}
+
+.newsletter-form{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.newsletter-input{
+    width: 100%;
+    max-width: 25rem;
+    padding: 1rem;
+    border-radius: .4rem;
+}
+.newsletter-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--main-font-color-dark);
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1px .6rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10.5rem;
+}
+
+@media screen and (min-width : 900px){
+    section{
+        padding : 7.9rem;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+
+    .nav-list{
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        padding: 0;
+        justify-content: initial;
+        flex-direction: row;
+        transform: initial;
+        transition: initial;
+    }
+    .nav-items{
+        margin:0 2.4rem;
+        border: none;
+    }
+    .nav-items:last-child{
+        margin-right: 0;
+    }
+
+    .nav-link{
+        font-size: 1.3rem;
+    }
+
+    .active{
+        position: relative;
+    }
+    .active::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+        bottom: -3px;
+    }
+    .sub-headline{
+        font-size: 10rem;
+    }
+    .first-letter{
+        font-size: 12.2rem;
+    }
+
+    .headline{
+        font-size: 4.7rem;
+    }
+    .line{
+        max-width: 11.4rem;
+    }
+    .restaurent-info{
+        display: flex;
+        align-items: center;
+    }
+
+    .restaurent-info > div{
+        flex:1;
+    }
+    .padding-right{
+        padding: 7rem;
+    }
+    .footer-content{
+        max-width: 77.5rem;
+        margin: auto;
+    }
+    .footer-content-about{
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
+
+    .footer-content-divider{
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-media,
+    .newsletter-form{
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+    .social-icons i{
+        opacity: 1;
+
+    }
+    .newsletter-btn{
+        margin-left: 8rem;
+    }
+}
+
+@keyframes fadeUp{
+    0%{
+        transform: translateY(4rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+@keyframes grow {
+    0%{
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+
+}
+
+@keyframes grow {
+    0%{
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+
+}
+
+
+
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(-360deg);
+    }
+
+}
+
+
+
+
+@keyframes fadeDown{
+    0%{
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+   
+}
+
+@keyframes up {
+    0%{
+        opacity: 0 ;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+   
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .rohith{
+      background-image: url("hi.jpg");
+      background-size: cover;
+      
+  }
+//Select element function
+const selectElement = function (element) {
+    return document.querySelector(element);
+};
+
+let menuToggler  = selectElement('.menu-toggle');
+let body  = selectElement('body');
+
+menuToggler.addEventListener('click',function () {
+    body.classList.toggle('open');
+});
+
+
+
+window.sr = ScrollReveal();
+sr.reveal('.animate-left',{
+    origin: 'left',
+    duration: 1000,
+    distance: '5rem',
+    delay : 300
+});
+sr.reveal('.animate-right',{
+    origin: 'right',
+    duration: 1000,
+    distance: '5rem',
+    delay : 600
+});
+sr.reveal('.animate-top',{
+    origin: 'top',
+    duration: 1000,
+    distance: '5rem',
+    delay : 600
+});
+sr.reveal('.animate-bottom',{
+    origin: 'bottom',
+    duration: 1000,
+    distance: '5rem',
+    delay : 600
+});
